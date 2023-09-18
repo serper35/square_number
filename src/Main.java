@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int x = squareNumber(10);
+        System.out.println(x);
+    }
+
+    public static int squareNumber(int number) {
+        return number *number;
     }
 }
